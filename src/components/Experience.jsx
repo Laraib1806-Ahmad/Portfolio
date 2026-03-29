@@ -8,19 +8,31 @@ const Experience = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
-  const experiences = [
-    {
-      company: 'Hello World Technologies',
-      role: 'Intern - MERN Stack Developer',
-      duration: '07/2025 - 09/2025',
-      responsibilities: [
-        'Showcased ability to create effective, user-friendly web applications using the MERN stack',
-        'Managed both frontend and backend tasks to deliver a seamless and engaging user experience',
-        'Designed interactive interfaces, implemented robust user authentication, and integrated dynamic features',
-        'Collaborated with senior developers to debug, optimize, and enhance application performance',
-      ],
-    },
-  ]
+ const experiences = [
+  {
+    company: 'Academic & Self Projects',
+    role: 'Data Science & Machine Learning',
+    duration: '2024 - Present',
+    responsibilities: [
+      'Built machine learning models for classification tasks with ~80%+ accuracy',
+      'Developed deep learning (CNN) models with transfer learning (VGG16)',
+      'Performed data preprocessing, feature engineering, and model evaluation',
+      'Analyzed real-world datasets (solar, healthcare) using EDA and visualization',
+    ],
+  },
+  {
+    company: 'Hello World Technologies',
+    role: 'Intern – MERN Stack Developer',
+    duration: '07/2025 - 09/2025',
+    responsibilities: [
+      'Developed full-stack web applications using MERN stack (React, Node.js, MongoDB)',
+      'Built RESTful APIs with JWT authentication and integrated external APIs',
+      'Implemented AI chatbot features and dynamic data-driven functionalities',
+      'Collaborated with team to debug issues and optimize application performance',
+    ],
+  },
+  
+]
 
   const containerVariants = {
     hidden: { opacity: 0 },

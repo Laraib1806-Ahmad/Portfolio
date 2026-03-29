@@ -18,8 +18,7 @@ const Footer = () => {
               <span className="text-primary">Laraib</span> Ahmad
             </h3>
             <p className="text-dark-textMuted leading-relaxed">
-              MERN Stack Developer passionate about building scalable web applications 
-              and delivering effective solutions.
+             A passionate Data Science student with a strong drive for turning data into meaningful insights.
             </p>
           </div>
           
@@ -104,11 +103,7 @@ const Footer = () => {
           <p className="text-dark-textMuted mb-2">
             © 2026 <span className="text-dark-text font-semibold">Laraib Ahmad</span>. All rights reserved.
           </p>
-          <p className="text-dark-textMuted text-sm flex items-center justify-center gap-2">
-            Built with <motion.span animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1.5, repeat: Infinity }}>
-              <Heart className="text-red-500" size={16} />
-            </motion.span> using MERN Stack
-          </p>
+         
         </motion.div>
       </div>
     </footer>

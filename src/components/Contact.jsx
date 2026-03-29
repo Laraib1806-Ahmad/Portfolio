@@ -95,7 +95,7 @@ const Contact = () => {
                 </motion.div>
                 <div>
                   <p className="text-sm text-dark-textMuted">Phone</p>
-                  <p className="font-medium text-dark-text">+92 301 66405150</p>
+                  <p className="font-medium text-dark-text">+92 304 1515012</p>
                 </div>
               </motion.a>
               
@@ -154,7 +154,7 @@ const Contact = () => {
                 <ul className="space-y-2 text-sm text-dark-textMuted">
                   <li className="flex items-center gap-2">
                     <FaCheck className="text-primary" size={14} />
-                    Multiple MERN stack repositories
+                    Multiple Data Science , ML and MERN stack repositories
                   </li>
                   <li className="flex items-center gap-2">
                     <FaCheck className="text-primary" size={14} />
