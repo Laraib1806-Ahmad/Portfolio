@@ -24,7 +24,8 @@ const Projects = () => {
       githubUrl: "https://github.com/Laraib1806-Ahmad/AI-ChatBot-MERN",
       demoUrl: "#",
       hasVideo: true,
-      videoUrl: "https://drive.google.com/file/d/1X-CQrvXmj0-QcR8vKkpI0-mwn7pOYiH4/view?usp=sharing",
+      videoUrl:
+        "https://drive.google.com/file/d/1X-CQrvXmj0-QcR8vKkpI0-mwn7pOYiH4/view?usp=sharing",
       highlight: true,
     },
     {
@@ -53,6 +54,15 @@ const Projects = () => {
 
   const mlProjects = [
     {
+      title: "Titanic Survival Prediction",
+      description:
+        "Performed data preprocessing and built classification models to predict survival outcomes. Applied feature engineering and model evaluation.",
+      techStack: ["Python", "Pandas", "Scikit-learn"],
+      githubUrl:
+        "https://github.com/Laraib1806-Ahmad/titanic-survival-prediction",
+      demoUrl: "https://titanic-survival-predictor-ai.vercel.app/",
+    },
+    {
       title: "Student Result Predictor",
       description:
         "Built machine learning model to predict student performance using academic data. Applied preprocessing, feature engineering, and classification algorithms.",
@@ -60,28 +70,21 @@ const Projects = () => {
       githubUrl: "https://github.com/Laraib1806-Ahmad/student-result-predictor",
       demoUrl: "#",
       hasVideo: true,
-      videoUrl: "https://drive.google.com/file/d/1fFMwnloCOKvlac_Q8MhqeDMSdpZAmizX/view?usp=sharing",
+      videoUrl:
+        "https://drive.google.com/file/d/1fFMwnloCOKvlac_Q8MhqeDMSdpZAmizX/view?usp=sharing",
     },
     {
       title: "Rice Image Classification",
       description:
         "Developed deep learning model for multi-class rice classification using CNN and VGG16 feature extraction. Compared ML and DL performance.",
       techStack: ["Python", "TensorFlow", "CNN", "VGG16"],
-      githubUrl: "https://github.com/Laraib1806-Ahmad/rice-image-classification-cnn",
+      githubUrl:
+        "https://github.com/Laraib1806-Ahmad/rice-image-classification-cnn",
       demoUrl: "#",
       hasVideo: false,
       videoUrl: "",
     },
-    {
-      title: "Titanic Survival Prediction",
-      description:
-        "Performed data preprocessing and built classification models to predict survival outcomes. Applied feature engineering and model evaluation.",
-      techStack: ["Python", "Pandas", "Scikit-learn"],
-      githubUrl: "https://github.com/Laraib1806-Ahmad/titanic-survival-prediction",
-      demoUrl: "#",
-      hasVideo: false,
-      videoUrl: "",
-    },
+    
     {
       title: "Rock vs Mine Detection",
       description:
@@ -97,7 +100,8 @@ const Projects = () => {
       description:
         "Analyzed solar energy datasets to identify production trends and patterns. Used visualization techniques for insights.",
       techStack: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-      githubUrl: "https://github.com/Laraib1806-Ahmad/Solar-Power-Data-Analysis",
+      githubUrl:
+        "https://github.com/Laraib1806-Ahmad/Solar-Power-Data-Analysis",
       demoUrl: "#",
       hasVideo: false,
       videoUrl: "",

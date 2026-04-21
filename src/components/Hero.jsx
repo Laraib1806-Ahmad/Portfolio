@@ -128,7 +128,7 @@ const Hero = () => {
             </motion.button>
 
             <motion.a
-              href="https://drive.google.com/file/d/1mrGu1xYcMIfSSj2JkxxRnUEgVtHp2G09/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nvfmzV_C5g4CmJgZdmZrIBBeJ9Wt0BQz/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary flex items-center gap-2"
