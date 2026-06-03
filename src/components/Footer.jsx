@@ -1,5 +1,5 @@
-import { Github, Linkedin, Heart } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { Github, Linkedin, Heart } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -18,19 +18,22 @@ const Footer = () => {
               <span className="text-primary">Laraib</span> Ahmad
             </h3>
             <p className="text-dark-textMuted leading-relaxed">
-             A passionate Data Science student with a strong drive for turning data into meaningful insights.
+              A passionate Data Science student with a strong drive for turning
+              data into meaningful insights.
             </p>
           </div>
-          
+
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold text-dark-text mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold text-dark-text mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               <li>
                 <button
                   onClick={() => {
-                    const element = document.getElementById('home')
-                    element?.scrollIntoView({ behavior: 'smooth' })
+                    const element = document.getElementById("home");
+                    element?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-dark-textMuted hover:text-primary transition-colors"
                 >
@@ -40,8 +43,8 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => {
-                    const element = document.getElementById('projects')
-                    element?.scrollIntoView({ behavior: 'smooth' })
+                    const element = document.getElementById("projects");
+                    element?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-dark-textMuted hover:text-primary transition-colors"
                 >
@@ -51,8 +54,8 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => {
-                    const element = document.getElementById('contact')
-                    element?.scrollIntoView({ behavior: 'smooth' })
+                    const element = document.getElementById("contact");
+                    element?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-dark-textMuted hover:text-primary transition-colors"
                 >
@@ -61,7 +64,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           {/* Social Links */}
           <div>
             <h3 className="text-xl font-bold text-dark-text mb-4">Connect</h3>
@@ -78,7 +81,7 @@ const Footer = () => {
                 <Github className="text-primary" size={20} />
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/laraib-ahmad-712238360/"
+                href="https://www.linkedin.com/in/laaraib-ahmad-543a91412/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-dark-bg hover:bg-dark-bgSecondary p-3 rounded-lg transition-colors border border-gray-800 hover:border-primary/50"
@@ -91,7 +94,7 @@ const Footer = () => {
             </div>
           </div>
         </motion.div>
-        
+
         {/* Copyright */}
         <motion.div
           className="border-t border-gray-800 pt-8 text-center"
@@ -101,13 +104,14 @@ const Footer = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <p className="text-dark-textMuted mb-2">
-            © 2026 <span className="text-dark-text font-semibold">Laraib Ahmad</span>. All rights reserved.
+            © 2026{" "}
+            <span className="text-dark-text font-semibold">Laraib Ahmad</span>.
+            All rights reserved.
           </p>
-         
         </motion.div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

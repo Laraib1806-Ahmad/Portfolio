@@ -46,58 +46,50 @@ const About = () => {
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
-          {/* DS & ML — Main Focus */}
+          
           <motion.p
-            variants={itemVariants}
-            className="text-lg text-dark-textMuted leading-relaxed mb-6"
-          >
-            I am a passionate{" "}
-            <strong className="text-primary">AI/ML & Data Science Developer</strong>{" "}
-            currently pursuing my{" "}
-            <strong className="text-primary">BS Data Science</strong> at Khwaja
-            Fareed UEIT. My primary focus is on building intelligent systems —
-            from classical machine learning models to deep learning architectures.
-          </motion.p>
+  variants={itemVariants}
+  className="text-lg text-dark-textMuted leading-relaxed mb-6"
+>
+  I am currently pursuing a <strong className="text-primary">BS in Data Science</strong> at
+  Khwaja Fareed University of Engineering & Information Technology (KFUEIT).
+  My interests lie at the intersection of <strong className="text-primary">Data Science</strong>,
+  <strong className="text-primary"> Machine Learning</strong>, and
+  <strong className="text-primary"> Full-Stack Development</strong>, where I enjoy
+  building practical solutions driven by both data and technology.
+</motion.p>
 
-          <motion.p
-            variants={itemVariants}
-            className="text-lg text-dark-textMuted leading-relaxed mb-6"
-          >
-            I have hands-on experience with{" "}
-            <strong className="text-primary">supervised learning</strong>,{" "}
-            <strong className="text-primary">classification models</strong>, and{" "}
-            <strong className="text-primary">deep learning (CNN, VGG16)</strong>{" "}
-            using TensorFlow and Keras. My data science work covers end-to-end
-            pipelines — data cleaning, exploratory data analysis, feature
-            engineering, model training, and evaluation using Scikit-learn,
-            Pandas, NumPy, Matplotlib, and Seaborn.
-          </motion.p>
+<motion.p
+  variants={itemVariants}
+  className="text-lg text-dark-textMuted leading-relaxed mb-6"
+>
+  I have hands-on experience in <strong className="text-primary">MERN Stack development</strong>,
+  building full-stack web applications using React.js, Node.js, Express.js,
+  and MongoDB. My work includes frontend development, backend integration,
+  database management, authentication systems, and responsive user interfaces.
+</motion.p>
 
-          <motion.p
-            variants={itemVariants}
-            className="text-lg text-dark-textMuted leading-relaxed mb-6"
-          >
-            I have worked on real-world projects including{" "}
-            <strong className="text-primary">student result prediction</strong>,{" "}
-            <strong className="text-primary">rice image classification</strong>,{" "}
-            <strong className="text-primary">rock vs mine detection</strong>, and{" "}
-            <strong className="text-primary">solar power data analysis</strong> —
-            applying both ML and DL techniques to solve practical problems.
-            I also have experience with Big Data tools like{" "}
-            <strong className="text-primary">PySpark</strong> and databases like{" "}
-            <strong className="text-primary">SQL & MySQL</strong>.
-          </motion.p>
+<motion.p
+  variants={itemVariants}
+  className="text-lg text-dark-textMuted leading-relaxed mb-6"
+>
+  Alongside web development, I have completed
+  <strong className="text-primary"> 6+ Machine Learning and Deep Learning projects</strong>,
+  applying data preprocessing, exploratory data analysis, predictive modeling,
+  and computer vision techniques using Python, TensorFlow, Scikit-learn,
+  Pandas, and NumPy.
+</motion.p>
 
-          {/* MERN — Secondary */}
-          <motion.p
-            variants={itemVariants}
-            className="text-lg text-dark-textMuted leading-relaxed"
-          >
-            Alongside my Data Science work, I also have experience in{" "}
-            <strong className="text-primary">MERN Stack development</strong> —
-            building full-stack web applications with React.js, Node.js,
-            Express.js, and MongoDB, including REST APIs and JWT authentication.
-          </motion.p>
+<motion.p
+  variants={itemVariants}
+  className="text-lg text-dark-textMuted leading-relaxed"
+>
+  My notable projects include an <strong className="text-primary">AI Chatbot Platform</strong>,
+  <strong className="text-primary"> E-Learning Platform</strong>,
+  <strong className="text-primary"> Rice Image Classification System</strong>,
+  and <strong className="text-primary"> Titanic Survival Predictor</strong>,
+  reflecting my passion for creating scalable applications and data-driven solutions.
+</motion.p>
         </motion.div>
       </div>
     </section>

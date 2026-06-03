@@ -99,7 +99,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-2xl md:text-3xl lg:text-4xl text-primary mb-6 font-semibold"
           >
-            AI/ML & Python Developer
+            Data  Scientist & MERN Stack Developer
           </motion.h2>
 
           {/* Summary (Aligned with CV + Job) */}
@@ -107,9 +107,8 @@ const Hero = () => {
             variants={itemVariants}
             className="text-lg md:text-xl text-dark-textMuted mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            Experience in Machine Learning, Deep Learning (CNN), and Python with hands-on projects. 
-            Built AI chatbot systems and ML models with ~80%+ accuracy, along with MERN-based applications 
-            integrating APIs and real-time data.
+              BS Data Science candidate with experience in MERN stack development, Machine Learning, and Deep Learning. Passionate about building scalable web applications and data-driven solutions through full-stack development and AI technologies.
+
           </motion.p>
 
           {/* Buttons */}
@@ -128,7 +127,7 @@ const Hero = () => {
             </motion.button>
 
             <motion.a
-              href="https://drive.google.com/file/d/1nvfmzV_C5g4CmJgZdmZrIBBeJ9Wt0BQz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1m5nr0TFGT4iqxUR1NBqgvtjzX-ZI2Vlr/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary flex items-center gap-2"
@@ -156,7 +155,7 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/laraib-ahmad-712238360/"
+              href="https://www.linkedin.com/in/laaraib-ahmad-543a91412/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark-textMuted hover:text-primary transition-colors p-3 rounded-full hover:bg-dark-bgSecondary border border-gray-800 hover:border-primary/50"

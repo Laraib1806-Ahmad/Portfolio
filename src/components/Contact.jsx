@@ -125,7 +125,7 @@ const Contact = () => {
                   <Github className="text-primary" size={24} />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/laraib-ahmad-712238360/"
+                  href="https://www.linkedin.com/in/laaraib-ahmad-543a91412/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-dark-bg hover:bg-dark-bgSecondary p-3 rounded-lg transition-colors border border-gray-800 hover:border-primary/50"
